@@ -3,7 +3,7 @@ import React from "react";
 
 import TodoItem from "./TodoItem";
 
-function TodoList({ revoveTodo, toggleTodoComplete }) {
+function TodoList() {
   const todos = useSelector((state) => state.todos.todos);
   return (
     <ul>
